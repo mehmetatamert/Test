@@ -1,0 +1,19 @@
+.c-article > * + * {
+    margin-top: 1rem;
+  }
+  
+  /* The horizontal version */
+  @media (min-width: 46rem) {
+    .c-article--horizontal {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .c-article > * + * {
+      margin-top: 0;
+    }
+  
+    .c-article__thumb {
+      margin-right: 1rem;
+    }
+  }
