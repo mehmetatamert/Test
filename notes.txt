@@ -1,1 +1,0 @@
-This page is dedicated to see the results of .gitignore 
